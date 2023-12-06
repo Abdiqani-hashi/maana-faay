@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+main,nav{
+    display: block;
+}
+
+
+main{
+    width: 80%;
+    background-color: #9ba83340;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6opx;
+
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+
+    background-image: url(images/hadhuudh.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main h1{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0;
+    color: #000; 
+}
+
+nav{
+    width: 100%;
+    background-color: #ddd;
+    position: fixed;
+    top: 0;
+    min-width: 360px;
+}
+
+nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+}
+nav li {
+    float: left;
+    margin-left: 120px;
+   
+}
+
+nav a{
+    display: block;
+    width: 80%;
+    backdrop-filter: #ddd;
+    text-align: center;
+    padding: 4px;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+a:hover{
+    background-color: green;
+    color: #ffff;
+   
+}
+
+p{
+    margin: 15px;
+    margin-top: 0px;
+
+    padding-left: 50px;
+    font-size: 24px;
+    
+}
+p:first-letter{
+    font-size: 3em;
+    font-family: serif;
+    color: green;
+}
+
+
+table,td, th{
+
+    border: 1px solid black;
+}
+
+table{
+    width: 50%;
+}
+td,th {
+    padding: 10px;
+}
+td{
+    text-align: center;
+}
+
+caption{
+    font-size: 3em;
+    font-family: 'Calligraffitti',cursive;
+    background-color: green;
+    color: white;
+}
+
+table{
+    margin: 0 auto;
+}
+th{
+    font-size: 2em;
+}
+
+td{
+    font-size: 1em;
+}
+
+td:nth-child(odd){
+    background-color: #129a12;
+    width: 15%;
+}
+
+tr:nth-child(even){
+    background-color: #b2e0b2;
+    width: 15%;
+}
