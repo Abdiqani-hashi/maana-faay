@@ -11,7 +11,7 @@ main{
     background-color: #9ba83340;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 6opx;
+    margin-top: 4em;
 
     padding: 10px;
     padding-bottom: 40px;
@@ -105,6 +105,7 @@ caption{
 
 table{
     margin: 0 auto;
+   
 }
 th{
     font-size: 2em;
@@ -123,3 +124,10 @@ tr:nth-child(even){
     background-color: #b2e0b2;
     width: 15%;
 }
+
+@media screen and (min-width: 900px) {
+   main {
+      background-color: rgb(244, 240, 240);
+      background-image: none;
+    }
+  }
